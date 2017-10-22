@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <meta name="description" content="A game room for COMP 206 Group Project">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+    <div class="container col-lg-6 picture_container">
+    </div>
+    <div class="container col-lg-6 picture_container">
+    </div>
+    <div class="container">
+    <div class="container col-lg-3">
+    </div>
+
+    <div class="jumbotron col-lg-6">
+
+
+        <form class="form-inline">
+        <button name="north" formaction="http://www.cs.mcgill.ca/~NORTHROOM/cgi-bin/transporter.py" method="get" class="btn btn-primary">North
+        </button>
+        <input type="hidden" name="inventory" value="10,10">
+        </form>
+
+        
+        <form class="form-inline">
+        <button name="west" formaction="http://www.cs.mcgill.ca/~WESTROOM/cgi-bin/transporter.py" method="get" class="btn btn-success">West
+        </button>
+        <input type="hidden" name="inventory" value="10,10">
+         </form>
+
+        <form class="form-inline">  
+        <button name="east" formaction="http://www.cs.mcgill.ca/~EASTROOM/cgi-bin/transporter.py" method="get" class="btn btn-danger">East
+        </button>
+        <input type="hidden" name="inventory" value="10,10">
+        </form>
+
+        <form class="form-inline">
+        <button name="south" formaction="http://www.cs.mcgill.ca/~SOUTHROOM/cgi-bin/transporter.py" method="get" class="btn btn-warning">South
+        </button>
+        <input type="hidden" name="inventory" value="10,10">
+        </form>
+
+    </div>
+    </div>
+     <div class="container">
+    <div class="container col-lg-3">
+    </body>
+</html>
